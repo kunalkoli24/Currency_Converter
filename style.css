@@ -75,7 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #feece2;
+    background-color: #f0f0f0;
     width: 80%; 
     border-radius: 1rem; 
     border: 1px solid rgb(10, 9, 9); 
@@ -84,7 +84,7 @@
   }
   
   .select-container:hover {
-    background-color: #f0f0f0; 
+    background-color:  #feece2; 
     transform: scale(1.05); 
   }
   
