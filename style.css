@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: rgb(235, 217, 193);
+    height: 540px;
+    width: 500px;
+    position: relative;
+    top: 75px;
+    left: 32%;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 2.5rem; 
+    font-family: 'Arial Black', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 1rem; 
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  form select,button,input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+  }
+  .from {
+    font-size: 1rem;
+    font-family:'Arial Black', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  .To {
+    font-size: 1rem;
+    font-family:'Arial Black', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  .money {
+    margin-bottom: 1rem; 
+    font-size: 1rem; 
+    font-family: 'Arial Black', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  .amount label {
+    font-size: 1.25rem; 
+    font-weight: bold; 
+    margin-bottom: 0.5rem; 
+  }
+  .amount input {
+    width: 100%;
+    border: 1px solid lightgray; 
+    border-radius: 0.75rem; 
+    height: 3rem;
+    padding-left: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 1rem; 
+    border: 1px solid rgb(10, 9, 9);
+    
+  }
