@@ -134,12 +134,11 @@
 
   /* Extra Small Devices (Mobile) */
 @media screen and (max-width: 480px) {
-  body {
-      font-size: 14px; /* Smaller text for small screens */
-  }
+   
 
   .container {
       padding: 10px;
+      border-radius: 1rem;
   }
 }
 
@@ -152,6 +151,7 @@
   .container {
       margin: 0 auto;
       width: 90%; /* Use most of the screen width */
+      border-radius: 3rem;
   }
 }
 
